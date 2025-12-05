@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidores, FTP e SFTP - Infográfico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1> Servidores SFTP </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">FTP</a></li>
+                    <li><a href="infograma.html">Infograma</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="infographic">
+            <!-- Seção 1: O que é um Servidor -->
+            <img src="img/img7.png">
+            <h2 class="section-title">O que é um Servidor?</h2>
+
+            <div class="content-box">
+                <p>Um <strong>servidor</strong> é um sistema de computador (hardware e software) que fornece recursos,
+                    dados, serviços ou programas a outros computadores, conhecidos como <strong>clientes</strong>,
+                    através de uma rede. Em essência, ele "serve" informações e funcionalidades para os clientes.</p>
+            </div>
+
+            <div class="server-types">
+                <div class="server-type">
+                    <h4> Servidor Web</h4>
+                    <p>Armazena e entrega páginas web. Hospedagem de sites e e-commerce.</p>
+                </div>
+                <div class="server-type">
+                    <h4> Servidor de Arquivos</h4>
+                    <p>Armazena e gerencia arquivos de dados. Compartilhamento de documentos em rede.</p>
+                </div>
+                <div class="server-type">
+                    <h4> Servidor de E-mail</h4>
+                    <p>Gerencia o envio e recebimento de e-mails. Comunicação corporativa.</p>
+                </div>
+                <div class="server-type">
+                    <h4> Servidor de Banco de Dados</h4>
+                    <p>Armazena e gerencia dados estruturados. Aplicações com persistência de dados.</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Seção 2: Protocolo SFTP -->
+            <img src="img/img9.png">
+            <h2 class="section-title" style="margin-top: 50px;">Protocolo SFTP (Secure File Transfer Protocol)</h2>
+
+            <div class="content-box">
+                <p>O <strong>SFTP (Secure File Transfer Protocol)</strong> é um protocolo que fornece recursos de
+                    transferência de arquivos, acesso e gerenciamento sobre qualquer fluxo de dados confiável.
+                    Geralmente é usado em conjunto com o <strong>SSH (Secure Shell)</strong>.</p>
+            </div>
+
+            <div class="feature-card"
+                style="background: linear-gradient(135deg, #000000 0%, #bbbbbb 100%); margin-top: 20px;">
+                <h3>Características do SFTP</h3>
+                <ul style="list-style: none; margin-top: 15px;">
+                    <li style="margin-bottom: 10px;"><strong>Porta Padrão:</strong> 22 (padrão do SSH)</li>
+                    <li style="margin-bottom: 10px;"><strong>Autenticação:</strong> Usuário/Senha ou Chaves SSH</li>
+                    <li style="margin-bottom: 10px;"><strong>Segurança:</strong> É SEGURO - dados e credenciais
+                        criptografados via SSH</li>
+                    <li><strong>Base:</strong> Subsistema do protocolo SSH</li>
+                </ul>
+            </div>
+
+            <!-- Seção 4: Comparação FTP vs SFTP -->
+            <h2 class="section-title" style="margin-top: 50px;"> SFTP: Comparação Detalhada</h2>
+
+            <div class="protocol-box sftp">
+                <h3> SFTP</h3>
+                <ul>
+                    <li>Subsistema SSH</li>
+                    <li>Porta 22</li>
+                    <li>Criptografia completa</li>
+                    <li>Dados protegidos (seguro)</li>
+                    <li>Autenticação obrigatória</li>
+                    <li>Conexão única (mais simples)</li>
+                    <li>Segurança como prioridade</li>
+                </ul>
+            </div>
+        </div>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Característica</th>
+                    <th>SFTP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Segurança</strong></td>
+
+                    <td class="sftp-column"> Seguro (criptografado)</td>
+                </tr>
+                <tr>
+                    <td><strong>Protocolo Base</strong></td>
+
+                    <td class="sftp-column">Subsistema SSH</td>
+                </tr>
+                <tr>
+                    <td><strong>Porta Padrão</strong></td>
+
+                    <td class="sftp-column">22</td>
+                </tr>
+                <tr>
+                    <td><strong>Criptografia</strong></td>
+
+                    <td class="sftp-column">SSH (AES, 3DES, etc.)</td>
+                </tr>
+                <tr>
+                    <td><strong>Autenticação</strong></td>
+
+                    <td class="sftp-column">Usuário/Senha ou Chaves SSH</td>
+                </tr>
+                <tr>
+                    <td><strong>Complexidade</strong></td>
+
+                    <td class="sftp-column">Simples (1 conexão)</td>
+                </tr>
+                <tr>
+                    <td><strong>Acesso Anônimo</strong></td>
+
+                    <td class="sftp-column"> Não suportado</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="highlight">
+            <h4> Recomendação</h4>
+            <p><strong>Use SFTP</strong> para qualquer transferência de arquivos que envolva dados sensíveis ou
+                credenciais. O SFTP é o padrão moderno e seguro para transferência de arquivos. O FTP deve ser evitado
+                em ambientes de produção e redes não confiáveis.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Pesquisa sobre Servidores, FTP e SFTP | Infográfico Educativo</p>
+    </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidores, FTP e SFTP - Infográfico</title>
+    <link rel="stylesheet" href= "style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Servidores, FTP </h1>
+            <nav>
+              <ul>
+                <li><a href="SFTP.html">SFTP</a></li>
+                   <li><a href="infograma.html">Infograma</a></li>
+              </ul>
+          </nav>
+        </header>
+
+        <div class="infographic">
+            <!-- Seção 1: O que é um Servidor -->
+                 <img src="img/img7.png" >
+            <h2 class="section-title">O que é um Servidor?</h2>
+
+            <div class="content-box">
+                <p>Um <strong>servidor</strong> é um sistema de computador (hardware e software) que fornece recursos, dados, serviços ou programas a outros computadores, conhecidos como <strong>clientes</strong>, através de uma rede. Em essência, ele "serve" informações e funcionalidades para os clientes.</p>
+            </div>
+
+            <div class="server-types">
+                <div class="server-type">
+                    <h4> Servidor Web</h4>
+                    <p>Armazena e entrega páginas web. Hospedagem de sites e e-commerce.</p>
+                </div>
+                <div class="server-type">
+                    <h4> Servidor de Arquivos</h4>
+                    <p>Armazena e gerencia arquivos de dados. Compartilhamento de documentos em rede.</p>
+                </div>
+                <div class="server-type">
+                    <h4> Servidor de E-mail</h4>
+                    <p>Gerencia o envio e recebimento de e-mails. Comunicação corporativa.</p>
+                </div>
+                <div class="server-type">
+                    <h4> Servidor de Banco de Dados</h4>
+                    <p>Armazena e gerencia dados estruturados. Aplicações com persistência de dados.</p>
+                </div>
+            </div>
+
+            <!-- Seção 2: Protocolo FTP -->
+            <h2 class="section-title" style="margin-top: 50px;">Protocolo FTP (File Transfer Protocol)</h2>
+
+            <div class="content-box">
+                    <img src="img/img 8.png" >
+                <p>O <strong>FTP (File Transfer Protocol)</strong> é um protocolo de rede padrão usado para a transferência de arquivos entre um cliente e um servidor em uma rede de computadores.</p>
+            </div>
+
+            <div class="feature-card" style="background: linear-gradient(135deg, #5c5b5b 0%, #000000 100%); margin-top: 20px;">
+                <h3><span class="icon">!</span> Características do FTP</h3>
+                <ul style="list-style: none; margin-top: 15px;">
+                    <li style="margin-bottom: 10px;"><strong>Portas Padrão:</strong> 20 (dados) e 21 (controle)</li>
+                    <li style="margin-bottom: 10px;"><strong>Autenticação:</strong> Requer nome de usuário e senha (permite acesso anônimo)</li>
+                    <li style="margin-bottom: 10px;"><strong>Segurança:</strong> NÃO É SEGURO - dados e credenciais em texto simples</li>
+                    <li><strong>Modos:</strong> Suporta modo Ativo e Passivo</li>
+                </ul>
+            </div>
+
+            <!-- Seção 4: Comparação FTP  -->
+                 <img src="img/img 8.png" >
+            <h2 class="section-title" style="margin-top: 50px;">FTP: Comparação Detalhada</h2>
+
+            <div class="protocol-comparison">
+                <div class="protocol-box ftp">
+                    <h3>FTP</h3>
+                    <ul>
+                        <li>Protocolo independente</li>
+                        <li>Portas 20 e 21</li>
+                        <li>Sem criptografia</li>
+                        <li>Texto simples (inseguro)</li>
+                        <li>Acesso anônimo possível</li>
+                        <li>Modo Ativo/Passivo</li>
+                        <li>Velocidade potencialmente maior</li>
+                    </ul>
+                </div>
+            </div>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>FTP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Segurança</strong></td>
+                        <td class="ftp-column">Inseguro (texto simples)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Protocolo Base</strong></td>
+                        <td class="ftp-column">Protocolo independente</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Porta Padrão</strong></td>
+                        <td class="ftp-column">20 (dados) e 21 (controle)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Criptografia</strong></td>
+                        <td class="ftp-column">Nenhuma</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Autenticação</strong></td>
+                        <td class="ftp-column">Usuário/Senha (texto simples)</td>
+
+                    </tr>
+                    <tr>
+                        <td><strong>Complexidade</strong></td>
+                        <td class="ftp-column">Simples (2 conexões)</td>
+
+                    </tr>
+                    <tr>
+                        <td><strong>Acesso Anônimo</strong></td>
+                        <td class="ftp-column">Suportado</td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight">
+                <h4> Recomendação</h4>
+                <p><strong>Use SFTP</strong> para qualquer transferência de arquivos que envolva dados sensíveis ou credenciais. O SFTP é o padrão moderno e seguro para transferência de arquivos. O FTP deve ser evitado em ambientes de produção e redes não confiáveis.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Pesquisa sobre Servidores, FTP e SFTP | Infográfico Educativo</p>
+        </footer>
+    </div>
+</body>
+</html>
